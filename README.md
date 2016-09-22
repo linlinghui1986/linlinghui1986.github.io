@@ -1,11 +1,5 @@
-# [My Personal Blog](http://www.fangr.tk/)
+# [林凌辉学编程](http://www.ehs007.com/)
 
-- 感谢 [BeiYuu](https://github.com/beiyuu) 和 [moonsea](https://github.com/moonsea)
+拿了别人的东西来，边学边改。
 
-- 使用Jekyll和Dispus
-
-- DNSPod提供域名解析
-
-
-> License: MIT
 
