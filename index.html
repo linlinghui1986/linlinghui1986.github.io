@@ -1,8 +1,5 @@
----
-　　layout: default
-　　title: 林凌辉学编程
-　　---
-　　<h2>{{ page.title }}</h2>
+<html>
+    <body>
 　　<script>  
 function browserRedirect() {  
     var sUserAgent = navigator.userAgent.toLowerCase();  
@@ -22,9 +19,5 @@ function browserRedirect() {
 }  
 browserRedirect();  
 </script>  
-　　<p>最新文章</p>
-　　<ul>
-　　　　{% for post in site.posts %}
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　　　{% endfor %}
-　　</ul>
+　</body>
+</html>
