@@ -1,6 +1,6 @@
 function countToTen(){
  var count = 0;
- while (count < 10000) {
+ while (count < 100) {
    count++;
    document.getElementById("theCount").innerHTML += 
 count + "<br>";
