@@ -10,11 +10,11 @@
 var userChoice = prompt("请输入石头、剪子或者布，和林凌辉玩一把！");
 var computerChoice = Math.random();
 if (computerChoice<0.34) {
-	console.log(computerChoice = "石头");
+	return(computerChoice = "石头");
 } else if(computerChoice >0.67) {
-	console.log(computerChoice = "布");
+	return(computerChoice = "布");
 } else {
-	console.log(computerChoice = "剪子");
+	return(computerChoice = "剪子");
 } 
 
 var compare=function(choice1,choice2){
