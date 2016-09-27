@@ -6,53 +6,36 @@
 </head>
  
 <body>
-<h1>一道简单的数学题</h1>
-<h1><p>有一堆鸡蛋：</p></h1>
-<h1><p>一个一个拿刚好拿完，</p></h1>
-<h1><p>两个两个拿剩下一个，</p></h1>
-<h1><p>三个三个拿刚好拿完，</p></h1>
-<h1><p>四个四个拿剩下一个，</p></h1>
-<h1><p>五个五个拿剩下四个，</p></h1>
-<h1><p>六个六个拿剩下三个，</p></h1>
-<h1><p>七个七个拿剩下五个，</p></h1>
-<h1><p>八个八个拿剩下一个，</p></h1>
-<h1><p>九个九个拿刚好拿完。</p></h1>
-<script>
-for(var eggsNumber=9; eggsNumber<=10000; )
-{
-if(eggsNumber%4===1&&eggsNumber%5===4&&eggsNumber%6===3&&eggsNumber%7===5&&eggsNumber%8===1){
-break;
-alert(eggsNumber);
-}
-eggsNumber=eggsNumber+90;
-}
 
-// var userChoice=prompt("请输入石头、剪子或者布，和林凌辉玩一把！")
-//var computerChoice = Math.random();
-//if (computerChoice<0.34) {computerChoice = "石头";} 
-//else{
-//	if(computerChoice >0.67) {computerChoice = "布";} 
-//	else {computerChoice = "剪子";} }
-//confirm("林凌辉出了"+computerChoice)
+<script>
+
+
+var userChoice=prompt("请输入石头、剪子或者布，和林凌辉玩一把！")
+var computerChoice = Math.random();
+if (computerChoice<0.34) {computerChoice = "石头";} 
+else{
+	if(computerChoice >0.67) {computerChoice = "布";} 
+	else {computerChoice = "剪子";} }
+confirm("林凌辉出了"+computerChoice)
 </script>
 
 <script>
-//var compare=function(choice1,choice2){
-//if(choice1===choice2){confirm("你勉强和林凌辉打成平手");}
-//else{
-//	if(choice1==="石头"&choice2==="剪子"){ confirm("你出"+userChoice+"，林凌辉出"+computerChoice+"，你好不容易赢了！");}
-//	else{
-//		if(choice1==="石头"&choice2==="布"){confirm("你出"+userChoice+"，林凌辉出"+computerChoice+"，你裤子输掉了！");}
-//		else{
-//			if(choice1==="剪子"&choice2==="石头"){confirm("你出"+userChoice+"，林凌辉出"+computerChoice+"，你快要输哭了吧！");}
-//			else{
-//				if(choice1==="剪子"&choice2==="布"){confirm("你出"+userChoice+"，林凌辉出"+computerChoice+"，赢一次傻乐什么啊！");}
-//				else{
-//					if(choice1==="布"&choice2==="石头"){confirm("你出"+userChoice+"，林凌辉出"+computerChoice+"，让你一把又何妨！");}
-//					else{
-//						if(choice1==="布"&choice2==="剪子"){confirm("你出"+userChoice+"，林凌辉出"+computerChoice+"，你输得你妈都不认识你了吧！");}
-//						else{confirm("游戏结束");}
-//}}}}}}}
+var compare=function(choice1,choice2){
+if(choice1===choice2){confirm("你勉强和林凌辉打成平手");}
+else{
+	if(choice1==="石头"&choice2==="剪子"){ confirm("你出"+userChoice+"，林凌辉出"+computerChoice+"，你好不容易赢了！");}
+	else{
+		if(choice1==="石头"&choice2==="布"){confirm("你出"+userChoice+"，林凌辉出"+computerChoice+"，你裤子输掉了！");}
+		else{
+			if(choice1==="剪子"&choice2==="石头"){confirm("你出"+userChoice+"，林凌辉出"+computerChoice+"，你快要输哭了吧！");}
+			else{
+				if(choice1==="剪子"&choice2==="布"){confirm("你出"+userChoice+"，林凌辉出"+computerChoice+"，赢一次傻乐什么啊！");}
+				else{
+					if(choice1==="布"&choice2==="石头"){confirm("你出"+userChoice+"，林凌辉出"+computerChoice+"，让你一把又何妨！");}
+					else{
+						if(choice1==="布"&choice2==="剪子"){confirm("你出"+userChoice+"，林凌辉出"+computerChoice+"，你输得你妈都不认识你了吧！");}
+						else{confirm("游戏结束");}
+}}}}}}}
     
 //compare(userChoice,computerChoice)
 
