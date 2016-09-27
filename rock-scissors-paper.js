@@ -1,8 +1,3 @@
-var computerChoice=Math.random()
-if(computerChoice<0.34){return(computerChoice="石头")；}
-else if(computerChoice>0.67){return(computerChoice="剪子");}
-else{return(computerChoice="布");}
-
 var compare=function(choice1,choice2){
 if(choice1===choice2){return("和林凌辉打成平手");}
 else{
