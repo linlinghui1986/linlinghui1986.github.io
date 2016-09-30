@@ -30,12 +30,12 @@
   <script>
     var countEggs=function(number) {
       for(var i=9;i<=number;i++){
-        if(i%1===0&&i%2===1&&i%3===0&&i%4===1&&i%5===4&&i%6===3&&i%7===5&&i%8===1&&i%9===0){console.log(i);}    
+        if(i%1===0&&i%2===1&&i%3===0&&i%4===1&&i%5===4&&i%6===3&&i%7===5&&i%8===1&&i%9===0){alert(i);}    
       }
     }
   </script>
   <center> <p>
-    <input type="button" onclick="countEggs();" value="开始计算">
+    <button type="button" onclick="countEggs(prompt("请输入数字"))" value="开始计算"</button>
     </p></center>
   
 </body>
